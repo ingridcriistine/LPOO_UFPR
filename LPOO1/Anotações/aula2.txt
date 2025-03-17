@@ -1,1 +1,10 @@
+**Prova
+int x = 0, y;
+y = ++x;        // y = 1 e x = 1 
+
+int x = 0, y;
+y = x++;        // y = 0 e x = 1
+
+int x = 0, y;
+y = x++ + ++x;    // y = 2 e x = 2
 
