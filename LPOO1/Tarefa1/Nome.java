@@ -1,8 +1,7 @@
-
-//(Tarefa 01) Crie um programa “Nome” que leia um nome completo na linha de comando e imprima-o ao contrário.  
-//Por exemplo, a linha de comando java Nome Rafael Wandresen deve imprimir: 
-//Wandresen 
-//Rafael 
+// Crie um programa “Nome” que leia um nome completo na linha de comando e imprima-o ao contrário.  
+// Por exemplo, a linha de comando java Nome Rafael Wandresen deve imprimir: 
+// Wandresen 
+// Rafael 
 
 import java.util.Scanner;
 

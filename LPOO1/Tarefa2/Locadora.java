@@ -5,6 +5,25 @@
 // c. Formate a saída para aparecer com duas casas decimais e (R$) na frente. 
 // d. Faça comentários na classe e gere o JavaDoc. 
 
+import java.util.Scanner;
+
 public class Locadora {
-    
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        Integer qtd;
+        Float aluguel, faturamentoAnual, multasMensais, faturamentoMensal;
+
+        System.out.print("\nInforme a quantidade de DVDs: ");
+        qtd = scan.nextInt();
+        System.out.print("Informe o valor do aluguel: ");
+        aluguel = scan.nextFloat();
+
+        faturamentoMensal = (qtd / 3.0f) * aluguel;
+        faturamentoAnual = faturamentoMensal * 12;
+
+        multasMensais = ((qtd / 10.0f) * aluguel) * 0.10f;
+
+        System.out.println("\nFaturamento anual: R$ " + String.format("%.2f", faturamentoAnual));
+        System.out.println("Ganho com multas por mês: R$ " + String.format("%.2f", multasMensais));
+    }
 }
