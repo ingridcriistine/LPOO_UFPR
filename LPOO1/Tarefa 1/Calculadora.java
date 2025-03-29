@@ -1,3 +1,4 @@
+// Implemente um programa que receba da linha de comando 3 argumentos. O primeiro e o segundo argumento são números reais e o terceiro argumento é a operação.
 
 import java.util.Scanner;
 
