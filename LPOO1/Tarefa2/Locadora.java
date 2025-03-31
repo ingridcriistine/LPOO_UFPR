@@ -18,10 +18,10 @@ public class Locadora {
         System.out.print("Informe o valor do aluguel: ");
         aluguel = scan.nextFloat();
 
-        faturamentoMensal = (qtd / 3.0f) * aluguel;
+        faturamentoMensal = (qtd / 3) * aluguel;
         faturamentoAnual = faturamentoMensal * 12;
 
-        multasMensais = ((qtd / 10.0f) * aluguel) * 0.10f;
+        multasMensais = (((qtd / 3) / 10) * aluguel) * 0.1f;
 
         System.out.println("\nFaturamento anual: R$ " + String.format("%.2f", faturamentoAnual));
         System.out.println("Ganho com multas por mês: R$ " + String.format("%.2f", multasMensais));
