@@ -5,7 +5,7 @@
 
 import java.util.Scanner;
 
-public class SomaPares {
+public class ValidarArgumento {
     public static void main(String[] args) {
         double soma = 0;   
         double media = 0;   
