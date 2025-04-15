@@ -35,4 +35,15 @@ public class Teste() {
         double saldoObtido = conta.getSaldo();
         assertEquals(80.0, saldoObtido, 0.0);
     }
+
+    @Test
+    public void testeDepositar30eSacar50() {
+        ContaBancaria conta = new ContaBancaria();
+        boolean depositoEsperado = conta.depositar(30.0);
+        assertEquals(depositoEsperado, true);
+        boolean saqueEsperado = conta.sacar(50.0);
+        assertEquals(saqueEsperado, true);
+        double saldoObtido = conta.getSaldo();
+        assertEquals(30.0, saldoObtido, 0.0);
+    }
 }
