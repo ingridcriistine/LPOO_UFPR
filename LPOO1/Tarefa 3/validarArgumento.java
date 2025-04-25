@@ -14,10 +14,8 @@ public class ValidarArgumento {
         String input;
         Scanner scan = new Scanner(System.in);
 
-        System.out.println("Digite números inteiros ou reais. Digite 'S' para encerrar a entrada.");
-
         while (true) {
-            System.out.print("Digite um número (ou 'S' para encerrar): ");
+            System.out.print("Digite um número inteiro ou real (ou 'S' para encerrar): ");
             input = scan.nextLine();  
 
             if (input.equalsIgnoreCase("S")) {  

@@ -1,4 +1,4 @@
-//Escreva um programa com os seguintes passos: 
+//7 - Escreva um programa com os seguintes passos: 
 //1) Peça ao usuário que informe quantos funcionários existem na empresa. 
 //2) Instancie um array de strings e um array de doubles com o tamanho informado. 
 //3) Peça ao usuário que informe o nome e o salário de cada funcionário e armazene o nome no array de strings e o salário no array de doubles. 
