@@ -1,4 +1,4 @@
-//Construa um programa que seja capaz de efetuar a média de todos os argumentos inteiros ou reais recebidos do teclado e 
+//2 - Construa um programa que seja capaz de efetuar a média de todos os argumentos inteiros ou reais recebidos do teclado e 
 //imprimi-los. Argumentos inválidos devem ser desconsiderados (Imprimir uma mensagem para cada valor inválido.), sem provocar
 //a exibição de exceções (Exiba uma mensagem para o usuário pedindo a ele que informe novamente o valor). O usuário deve 
 //digitar S quando desejar encerrar a entrada de dados;
@@ -26,7 +26,7 @@ public class ValidarArgumento {
 
             try {
                 num = Double.parseDouble(input);
-                soma += numero;  
+                soma += num;  
                 count++;        
             } catch (NumberFormatException e) {
                 System.out.println("Entrada inválida! Por favor, digite um número inteiro ou real.");
