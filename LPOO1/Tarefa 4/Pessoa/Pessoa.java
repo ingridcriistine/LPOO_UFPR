@@ -1,5 +1,4 @@
-/*
-2. Escreva a estrutura de uma classe (atributos e métodos) para 
+/* 2. Escreva a estrutura de uma classe (atributos e métodos) para 
 representar uma Pessoa (nome, idade e endereço): 
     a. Compile a classe; 
     b. Crie uma outra classe que utilize um objeto Pessoa. Leia informações de 
@@ -14,7 +13,47 @@ representar uma Pessoa (nome, idade e endereço):
 */
 
 public class Pessoa {
-    public static void main(String[] args) {
-        
+    private String nome;
+    private int idade;
+    private String endereco;
+    
+    public Pessoa(String nome, int idade, String endereco) {
+        this.nome = nome;
+        this.idade = idade;
+        this.endereco = endereco;
+    }
+
+    public void fazAniversario() {
+        idade++;
+    }
+
+    public void imprime() {
+        System.out.println("Nome: " + nome);
+        System.out.println("Idade: " + idade);
+        System.out.println("Endereco: " + endereco);
+    }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public int getIdade() {
+        return idade;
+    }
+
+    public void setIdade(int idade) {
+        this.idade = idade;
+    }
+
+    public String getEndereco() {
+        return endereco;
+    }
+
+    public void setEndereco(String endereco) {
+        this.endereco = endereco;
     }
 }
