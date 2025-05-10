@@ -1,3 +1,5 @@
+package src.main.java;
+
 /* 3. Crie uma classe para representar um Ponto3D, com atributos e 
 métodos (x, y, z, cor, intensidade). Crie os métodos gets e sets. Crie os 
 seguintes métodos: 

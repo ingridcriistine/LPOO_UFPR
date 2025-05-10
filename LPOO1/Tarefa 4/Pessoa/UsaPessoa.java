@@ -16,6 +16,8 @@ public class UsaPessoa {
 
         pessoa.fazAniversario();
         pessoa.fazAniversario(); 
+        pessoa.fazAniversario(); 
+        pessoa.fazAniversario(); 
 
         System.out.println("\nDados da pessoa após aniversários:");
         pessoa.imprime();

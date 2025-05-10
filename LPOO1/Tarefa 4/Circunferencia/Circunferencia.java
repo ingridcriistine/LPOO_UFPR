@@ -4,15 +4,14 @@ testar objetos da classe Circunferencia.
 */
 
 public class Circunferencia {
-    public double raio;
+    private double raio;
 
     public Circunferencia(double raio) {
         this.raio = raio;
     }
 
-    public double area(double raio) {
-        double area = Math.PI * raio * raio;
-        return area;
+    public double calcularArea() {
+        return Math.PI * raio * raio;
     }
 
     public double getRaio() {
